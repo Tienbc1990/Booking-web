@@ -1,0 +1,111 @@
+.detail {
+  margin: auto;
+  padding-top: 50px;
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.roomInfo_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.roomInfo_container .roomInfoDetail {
+}
+
+/* Nút "Reserve or Book Now"  */
+#btnBooking {
+  display: inline-block;
+  width: 150px;
+  height: 51px;
+  background-color: var(--color-button);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.detail .roomInfo_container .roomInfoDetail h2 {
+  margin-bottom: 15px;
+}
+
+.detail .roomInfo_container .roomInfoDetail .address {
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-left: 3px;
+}
+.detail .roomInfo_container .roomInfoDetail .distance {
+  margin-bottom: 15px;
+  color: var(--color-button);
+  font-size: 16px;
+}
+
+.detail .roomInfo_container .roomInfoDetail .price {
+  margin-bottom: 15px;
+  color: var(--color-green);
+  font-size: 16px;
+}
+
+/* Chia các hình ảnh thành 3 cột, 2 hàng */
+.photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 5px;
+  margin-bottom: 40px;
+}
+
+.photos img {
+  width: 256px;
+  height: 290px;
+}
+
+.perfect_booking {
+  display: flex;
+  column-gap: 20px;
+}
+
+.detail .perfect_booking .desc_Detail {
+  flex: 3;
+}
+
+.detail .perfect_booking .desc_Detail .title {
+  margin-bottom: 25px;
+}
+
+.detail .desc_Detail .description {
+  text-align: justify;
+  font-size: 13px;
+}
+
+.detail .perfect_booking .perfectPrice {
+  flex: 1.5;
+  padding: 15px 10px;
+  display: inline-block;
+  background-color: var(--color-lightBlue);
+}
+
+.perfect_booking .perfectPrice h4 {
+  color: var(--color-gray);
+  margin-bottom: 20px;
+}
+
+.perfect_booking .perfectPrice .locationScore {
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.perfect_booking .perfectPrice .dataDetail_nine_night_price {
+  font-size: 13px;
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.perfect_booking .perfectPrice .dataDetail_nine_night_price span {
+  font-weight: 700;
+}
+
+/* Tạo style cho nút "Reserve or Book Now" phần "Perfect for a 9-night stay!" */
+.perfectPrice #btnBooking {
+  width: 100%;
+}

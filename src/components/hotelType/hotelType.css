@@ -1,0 +1,30 @@
+.hotelTypeList {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 60%; /* 20% bên trái + 20% bên phải */
+  margin: 40px auto; /* Canh giữa theo chiều ngang */
+}
+
+.hotelType-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.hotelType-card img {
+  width: 149px;
+  height: 149px;
+  /* width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0; */
+}
+
+.hotelType-card .hotelType-detail {
+  margin-top: 5px;
+}
+
+.hotelType-card .hotelType-detail p {
+  font-size: 13px;
+  color: gray;
+}

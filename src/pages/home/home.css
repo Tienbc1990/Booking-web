@@ -1,0 +1,38 @@
+/* Các màu sắc */
+:root {
+  --color-button: #4169e1;
+  --color-background: rgb(124, 3, 124);
+  --color-orange: #ffbb00;
+  --color-green: #228b22;
+  --color-gray: rgb(27 22 22 / 74%);
+  --color-lightBlue: #d7f5ff;
+}
+
+.home {
+  margin: 0 5px;
+}
+
+/* Căn giữa và chiều rộng cho thẻ h3 */
+.home h3 {
+  width: 60%;
+  margin: 20px 20%;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home .headerTop h3 {
+  margin: 20px 0;
+}
+
+.headerTop button {
+  margin-left: 10px;
+}
+
+/* Tạo pointer khi trỏ chuột vào cách nút */
+button:hover {
+  cursor: pointer;
+}

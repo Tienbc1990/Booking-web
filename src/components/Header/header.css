@@ -1,0 +1,97 @@
+/* -----Toàn bộ phần Header */
+.headerContainer {
+  background-color: var(--color-background);
+  padding: 5px 20%;
+  color: #fff;
+  position: relative;
+  padding-bottom: 70px;
+}
+
+.header {
+  margin: 15px 0;
+}
+
+.header h1 {
+  margin: 10px 0;
+}
+
+.header .headerContent {
+  margin: 30px 0 15px 0;
+}
+
+.header .btnSignIn {
+  padding: 10px 4px;
+  background-color: var(--color-button);
+  border: none;
+  color: #fff;
+}
+/* Nút Search  */
+.header .btnSearch {
+  margin: 10px 0;
+  padding: 10px 5px;
+  color: #fff;
+  background-color: var(--color-button);
+  border: none;
+}
+
+.header .searchContainer {
+  color: rgb(170, 159, 159);
+}
+
+/* ---------Phần tìm kiếm Search------------ */
+.searchContainer {
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+  justify-items: center;
+  border: 3px solid rgb(230, 159, 29);
+  border-radius: 5px;
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.searchContainer .iconSearch_bed,
+.searchContainer .iconSearch_calendar,
+.searchContainer .iconSearch_female {
+  display: flex;
+  width: 100%;
+}
+
+.searchContainer iconSearch_bed {
+  flex: 1;
+}
+
+.searchContainer iconSearch_calendar {
+  flex: 1;
+}
+
+.searchContainer iconSearch_female {
+  flex: 1;
+}
+
+.searchContainer input {
+  border: none;
+  margin-left: 3px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.searchContainer .btnSearch {
+  background-color: var(--color-button);
+  border: none;
+  flex: 0.5;
+}
+
+/* --------------Hiển thị lịch DatePicker------------- */
+
+.datePicker {
+  position: absolute;
+  top: 400px;
+  left: 476px;
+  z-index: 1000;
+}

@@ -1,0 +1,47 @@
+.hotelList {
+  display: flex;
+  justify-content: space-between;
+  width: 60%; /* 20% bên trái + 20% bên phải */
+  margin: 40px auto; /* Canh giữa theo chiều ngang */
+}
+
+.hotel-card {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.hotel-card img {
+  width: 170px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.hotel-card .hotelName {
+  color: var(--color-background);
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.hotel-card .hotelCity {
+  color: gray;
+  margin-top: 10px;
+}
+
+.hotel-card .hotelPrice {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.hotel-card .hotelRateType {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.hotel-card .hotelRateType .hotelRate {
+  background-color: var(--color-background);
+  color: white;
+  padding: 2px;
+  margin-right: 4px;
+}

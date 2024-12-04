@@ -1,0 +1,25 @@
+.footer-Card {
+  display: grid;
+  width: 60%;
+  margin: 40px auto;
+  grid-template-columns: repeat(5, 1fr);
+  color: var(--color-button);
+}
+.footerCol {
+  display: grid;
+  font-size: small;
+  grid-template-rows: repeat(6, 1fr);
+  flex-direction: column;
+  text-align: start;
+  gap: 8px;
+  font-size: 12px;
+  margin: 0;
+}
+
+.footerForSearchList {
+  color: red;
+}
+
+.footerForSearchPopup {
+  color: red;
+}

@@ -1,0 +1,64 @@
+.searchPopup {
+  background-color: var(--color-orange);
+  height: 585px;
+  /* flex: 0.2; */
+  margin-left: 10px;
+  padding: 15px;
+  flex-grow: 1;
+  border: 1px solid none;
+  border-radius: 10px;
+}
+
+.searchPopup h2 {
+  margin-bottom: 20px;
+  color: var(--color-gray);
+}
+
+.destination-and-check h4 {
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.destination-and-check input {
+  margin-bottom: 10px;
+  padding: 10px 3px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+}
+.destination-and-check input::placeholder {
+  color: #000;
+}
+
+.options h4 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.optionItems {
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.optionItems .option-item {
+  display: grid;
+  grid-template-columns: 2fr 0.8fr;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.optionItems .option-item p {
+  color: var(--color-gray);
+  font-size: 14px;
+}
+.optionItems .option-item input {
+  width: 70px;
+  height: 30px;
+}
+
+.options button {
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  background-color: var(--color-button);
+  border: none;
+}

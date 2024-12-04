@@ -1,0 +1,119 @@
+.searchList {
+  display: grid;
+  margin-left: 20px;
+  gap: 20px;
+  flex-basis: 80%;
+}
+
+.searchListItem {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  height: 280px;
+}
+
+.searchListItem img {
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.searchListItem .roomInfo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  flex-grow: 2;
+}
+
+.searchListItem .roomInfo h2 {
+  color: var(--color-button);
+}
+
+.searchListItem .roomInfo .distance {
+  font-weight: 500;
+}
+
+.searchListItem .roomInfo .tagRoom {
+  display: inline-block;
+  width: fit-content;
+  border-radius: 3px;
+  padding: 4px 2px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 350;
+  background-color: var(--color-green);
+}
+
+.searchListItem .roomInfo .descriptionRoom {
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.searchListItem .roomInfo .typeRoom {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.searchListItem .roomInfo .free_cancel_1 {
+  padding-bottom: 10px;
+  font-weight: 650;
+  font-size: 14px;
+  color: var(--color-green);
+}
+
+.searchListItem .roomInfo .free_cancel_2 {
+  font-size: 14px;
+  color: var(--color-green);
+}
+
+.searchListItem .evaluateRoom {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.searchListItem .evaluateRoom .rate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+
+.searchListItem .evaluateRoom .rate .rate_text {
+  font-weight: 600;
+}
+
+.searchListItem .evaluateRoom .rate .rate_point {
+  background-color: var(--color-background);
+  padding: 3px 2px;
+  color: #fff;
+}
+
+.searchListItem .evaluateRoom .money {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  row-gap: 10px;
+}
+
+.searchListItem .evaluateRoom .money .price {
+  font-size: 24px;
+}
+
+.searchListItem .evaluateRoom .money .taxesAndFees_text {
+  font-size: 13px;
+  color: gray;
+}
+
+.searchListItem .evaluateRoom .money button {
+  background-color: var(--color-button);
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
